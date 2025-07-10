@@ -10,9 +10,12 @@ Assignment 14
 
 int main()
 {
-    int var = 10;
-    int *pointerOfVar = &var;
+    int 
+        var = 10,
+        *pointerOfVar = &var
+    ;
 
-    printf("%p - Address stored in pointer\n%d - Variable value", (void *)pointerOfVar, *pointerOfVar);
+    printf("%p - Address stored in pointer\n%d - Variable value", 
+        (void*)pointerOfVar, *pointerOfVar);
     return 0;
 }

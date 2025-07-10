@@ -10,8 +10,10 @@ Assignment 6
 
 int main()
 {
-    int topNumber = 0;
-    int bottomNumber = 0;
+    int 
+        topNumber = 0,
+        bottomNumber = 0
+    ;
 
     printf("Enter top number.\n");
     scanf("%d", &topNumber);

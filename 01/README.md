@@ -10,4 +10,4 @@ The goal here is to make sure you know how to:
 - Use `#include <stdio.h>` and the `printf` function
 
 It's the equivalent of saying:  
-**"Hello, world, I'm ready to code you!"**
+**"Hello, world, I'm ready to code you!"**   
