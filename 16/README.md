@@ -6,12 +6,11 @@ In this assignment, the objective is to understand array initialization and expl
 
 - An integer array `array` with 10 elements is initialized to all zeros using `{0}`.
 - A loop iterates through each element, printing:
-- The index and the value of the element.
-- The memory address of the array (which stays the same in every iteration, since it's pointing to the first element).
-
 ```C
 printf("array[%d]: %d | Memory address: %p\n", i, array[i], (void*)&array);
 ```
+- The index and the value of the element.
+- The memory address of the array (which stays the same in every iteration, since it's pointing to the first element).
 
 ### Key points
 
