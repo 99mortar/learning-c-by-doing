@@ -5,15 +5,14 @@ In this exercise, the user is prompted to enter the coefficients A, B, and C of 
 ### How the code works
 
 - The program reads float inputs for coefficients A, B, and C.
-- It calculates the discriminant (delta) using the formula \(\Delta = B^2 - 4AC\).
+- It calculates the discriminant (delta) using the formula:
+  `Delta = B^2 - 4 * A * C`
 - Depending on the value of delta:
-  - If delta < 0, there are no real roots.
-  - If delta = 0, there is one real root.
-  - If delta > 0, there are two real roots.
+- If delta < 0, there are no real roots.
+- If delta = 0, there is one real root.
+- If delta > 0, there are two real roots.
 - When real roots exist, it calculates both roots using:
-  \[
-    x = \frac{-B \pm \sqrt{\Delta}}{2A}
-  \]
+  `x = (-B ± sqrt(Delta)) / (2 * A)`
 - The program checks each root by plugging it back into the quadratic equation to verify if it results in zero (or very close to zero), using a tolerance threshold.
 - It informs the user whether each root is likely correct or may be inaccurate due to decimal truncation.
 
@@ -29,5 +28,3 @@ In this exercise, the user is prompted to enter the coefficients A, B, and C of 
 ---
 
 **Extra Credit:** The solution validation mechanism that checks the accuracy of roots by substituting them back into the original equation.
-
----
