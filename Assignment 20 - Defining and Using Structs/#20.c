@@ -16,9 +16,6 @@ typedef struct
 
 int main()
 {
-    /*
-        struct getInfo showInfo; -> You could declare it this way, but I declared it earlier at the end of the struct definition.
-    */
     showInfo getInfo;
     getInfo.a = 10;
     getInfo.b = 'B';
