@@ -3,7 +3,7 @@ I've always had a strong interest in programming languages, and among them, **C 
 
 After spending some time away from development due to personal circumstances, I'm now fully committed to resuming my studies and sharpening my skills.
 
-This repository was created as a way to share some of my personal solutions and approaches to exercises inspired by the great [Learning-C](https://github.com/h0mbre/Learning-C) repository by **[h0mbre]**. It serves both as a record of my progress and as a resource for others who might be following a similar learning path.
+This repository was created as a way to share some of my personal solutions and approaches to exercises inspired by the great [Learning-C](https://github.com/h0mbre/Learning-C) repository by **h0mbre**. It serves both as a record of my progress and as a resource for others who might be following a similar learning path.
 
 In addition to the activities based on h0mbre's repository, I will also include extra exercises designed to deepen understanding of fundamental concepts — essential for building a solid foundation and working efficiently with the C language.
 
