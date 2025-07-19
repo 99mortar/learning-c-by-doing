@@ -5,9 +5,8 @@
 */
 
 #include <stdio.h>
-#include <stdlib.h>
 
-struct getInfo
+typedef struct
 {
     int a;
     char b;
@@ -20,10 +19,11 @@ int main()
     /*
         struct getInfo showInfo; -> You could declare it this way, but I declared it earlier at the end of the struct definition.
     */
-    showInfo.a = 10;
-    showInfo.b = 'B';
-    showInfo.c = 10.1;
+    showInfo getInfo;
+    getInfo.a = 10;
+    getInfo.b = 'B';
+    getInfo.c = 10.1;
     printf("[A]: %d\n[B]: %c\n[C]: %.1f",
-            showInfo.a, showInfo.b, showInfo.c);
+            getInfo.a, getInfo.b, getInfo.c);
     return 0;
 }
