@@ -13,7 +13,7 @@ In this assignment, the objective is to understand how to declare and define fun
 - The use of a function prototype ensures that the compiler knows about the function before its actual definition, allowing flexible code organization.
 - The function does not take any parameters and does not return any value `(void)`.
 
-### **EXTRA CREDIT**
+### **Extra Credit**
 The extra credit was achieved by:
 - Using a function prototype above `main()` to inform the compiler of the function's existence.
 - Defining the function after `main()`, which is a good habit when organizing larger programs.
