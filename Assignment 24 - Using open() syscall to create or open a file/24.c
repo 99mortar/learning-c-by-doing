@@ -14,18 +14,15 @@
 
 int main()
 {
-	int file;
-
-	file = open("test.txt", O_WRONLY | O_CREAT, S_IWUSR); // file = 3;
+	int file = open("test.txt", O_WRONLY | O_CREAT, S_IRWXU); // file = 3;
 
 	if (file < 0)
 	{
-		printf("The open operation failed...");
+		perror("The open operation failed");
 		return -1;
 	}
 	else 
-	{
 		printf("The open operation succeeded!");
-		return 0;
-	}	
+	close(file);
+	return 0;
 }
