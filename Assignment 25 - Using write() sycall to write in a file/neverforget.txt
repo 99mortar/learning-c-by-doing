@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <string.h>
+
+int file;
+
+int openFile(const char *_fileName, const int oflags_method, const mode_t mode);
+void readFile(const int _fileName);
+void writeFile(const int __fileName, const char *msg);
+void copyContentToNewFile(const int _oldFile, const int _newFile);
+
+int main() 
+{
+    openFile("source.txt", O_WRONLY | O_CREAT, 0644);
+    readFile(file);
+    writeFile(file, "Yeah, go ahead.");
+    copyContent();
+    return 0;
+}
+
+int openFile(const char *_fileName, const int oflags_method, const mode_t mode)
+{
+    file = open(_fileName, oflags_method, mode);
+
+    if(file < 0)
+        perror("Failed");
+    else
+        puts("File created.");
+    close(file);
+
+    return file;
+}
+
+void readFile(int _fileName)
+{
+    char buf[128];
+    int bytesRead = read(_fileName, buf, sizeof(buf));
+    if(bytesRead < 0)
+        perror("Failed to read.");
+    else
+        printf("The content inside the file is: \n");
+        write(STDOUT_FILENO, buf, bytesRead);
+}
+
+void writeFile(const int __fileName, const char *msg)
+{
+    int writeToFile = write(__fileName, msg, strlen(msg));
+
+    if(writeToFile != strlen(msg))
+        perror("Failed");
+    else   
+        puts("Alright.");
+    
+}
+
+void copyContentToNewFile(const int _oldFile, const int _newFile)
+{
+
+}

@@ -12,26 +12,25 @@
 
 int main()
 {
-    int count = 0;
+    int 
+        count = 0
+    ;
 
     printf("Enter how many numbers you want to input: ");
     scanf("%d", &count);
 
     int *original = malloc(sizeof(int) * count);
-    if (original == NULL) 
-    {
-        printf("Memory allocation failed for original array.\n");
-        return 1;
-    }
+    if(original == NULL)
+        return -1;
 
-    for (int i = 0; i < count; ++i) 
+    for(int i = 0; i < count; ++i) 
     {
         printf("Enter number %d: ", i + 1);
         scanf("%d", &original[i]);
     }
 
     int *reversed = malloc(sizeof(int) * count);
-    if (reversed == NULL) 
+    if(reversed == NULL) 
     {
         printf("Memory allocation failed for reversed array.\n");
         free(original);
