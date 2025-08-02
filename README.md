@@ -1,10 +1,22 @@
-# back to coding - C
-I've always had a strong interest in programming languages, and among them, **C and C++** have stood out the most to me. My first real experience with programming was through **Pawn**, a C-based language, where I used to develop, debug, and sell custom systems. That early exposure sparked my curiosity and built a natural bridge toward learning C more deeply.
+# Back to Coding: C
+> Hands-on exercises and personal solutions to master pure C.
 
-After spending some time away from development due to personal circumstances, I'm now fully committed to resuming my studies and sharpening my skills.
+## About
+I've always been passionate about programming languages, with **C** and **C++** standing out the most.  
+My first real experience with programming came through **Pawn**, a C-based language, where I developed, debugged, and sold custom systems.  
+That early exposure sparked my curiosity and created a natural path toward learning C in depth.
 
-This repository was created as a way to share some of my personal solutions and approaches to exercises inspired by the great [Learning-C](https://github.com/h0mbre/Learning-C) repository by **h0mbre**. It serves both as a record of my progress and as a resource for others who might be following a similar learning path.
+After taking a break from development due to personal circumstances, I'm now fully committed to resuming my studies and sharpening my skills.
 
-In addition to the activities based on h0mbre's repository, I will also include extra exercises designed to deepen understanding of fundamental concepts — essential for building a solid foundation and working efficiently with the C language.
+## Purpose of This Repository
+This repository serves as:
+- A record of my personal progress in learning C.
+- A collection of solutions and approaches to exercises inspired by the great [Learning-C](https://github.com/h0mbre/Learning-C) repository by **h0mbre**.
+- A resource for others who are following a similar learning path.
 
-**Important note:** My focus here is 100% on **pure C** — I deliberately avoid mixing C with C++ features or creating hybrid "C+" style code. This repository is dedicated strictly to mastering the C language in its classic form.
+In addition to activities based on h0mbre's repository, I’ve also added **extra exercises** designed to strengthen core programming concepts and build a solid foundation in C.
+
+## Important Note
+> **Focus on Pure C**  
+> This repository is strictly dedicated to mastering the C language in its classic form.  
+> No C++ features, no hybrid "C+" style code — just pure, standard C.
